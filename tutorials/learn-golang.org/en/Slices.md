@@ -43,9 +43,6 @@ You can also create a slice using the make function where you can also give an i
     // initial capacity of 5 which is later changed dynamically to meet the requirement
     exampleSlice := make([]int, 0, 5)
 
-    // You can skip the capacity and length and only give the type to get an empty slice
-    exampleSlice = make([]int)
-
 Exercise
 --------
 Create a string slice using make and add elements `"Hello", "World", "!"` to the slice using the append function, or using the one line declaration format and print the Slice.
